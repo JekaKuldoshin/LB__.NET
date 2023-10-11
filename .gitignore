@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/LAB__1/EventsFormsApp/HistoryForm.resx
+/LAB__1/EventsFormsApp/LoginForm.resx
+/LAB__1/EventsFormsApp/MenuForm.resx
+/LAB__1/EventsFormsApp/TellerMachineForm.resx
+/LAB__1/EventsFormsApp/TellerMachineForm.Designer.cs
+/LAB__1/EventsFormsApp/MenuForm.Designer.cs
+/LAB__1/EventsFormsApp/LoginForm.Designer.cs
+/LAB__1/EventsFormsApp/HistoryForm.Designer.cs
+/LAB__1/EventsFormsApp/Properties/DataSources/BankClassLibrary.Transaction.datasource
