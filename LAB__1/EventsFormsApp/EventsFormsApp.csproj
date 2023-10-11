@@ -8,8 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MathSolverClassLibrary\BankClassLibrary.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\BankClassLibrary\BankClassLibrary.csproj" />
+	</ItemGroup>
 
 </Project>
