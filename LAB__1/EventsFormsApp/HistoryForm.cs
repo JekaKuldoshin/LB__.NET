@@ -42,5 +42,10 @@ namespace EventsFormsApp
             // Наприклад, якщо у вас є dataGridViewTransactions для відображення транзакцій:
             dataGridViewTransactions.DataSource = transactions;
         }
+
+        private void HistoryForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
