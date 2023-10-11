@@ -12,7 +12,7 @@ using BankClassLibrary;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace EventsFormsApp
-{
+{ 
     public partial class MenuForm : Form
     {
         private Account userAccount;
