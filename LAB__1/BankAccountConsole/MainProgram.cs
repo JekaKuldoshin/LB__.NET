@@ -14,10 +14,10 @@ class Program
         Bank bank = new Bank("MyBank");
 
         // Создаем несколько банкоматов и добавляем их в банк
-        AutomatedTellerMachine atm1 = new AutomatedTellerMachine(5, "пр. Науки 14", 3000, bank, 50.0045, 36.2275); // Центр
-        AutomatedTellerMachine atm2 = new AutomatedTellerMachine(6, "пр. Московский 199", 4500, bank, 50.0112, 36.2267); // Северо-восток
-        AutomatedTellerMachine atm3 = new AutomatedTellerMachine(7, "пр. Гагарина 175", 3800, bank, 49.9808, 36.2536); // Юго-запад
-        AutomatedTellerMachine atm4 = new AutomatedTellerMachine(8, "пр. Ленина 40", 4200, bank, 50.0128, 36.2301); // Северо-запад
+        AutomatedTellerMachine atm1 = new AutomatedTellerMachine(1, "пр. Науки 14", 3000, bank, 50.0045, 36.2275); // Центр
+        AutomatedTellerMachine atm2 = new AutomatedTellerMachine(2, "пр. Московский 199", 4500, bank, 50.0112, 36.2267); // Северо-восток
+        AutomatedTellerMachine atm3 = new AutomatedTellerMachine(3, "пр. Гагарина 175", 3800, bank, 49.9808, 36.2536); // Юго-запад
+        AutomatedTellerMachine atm4 = new AutomatedTellerMachine(4, "пр. Ленина 40", 4200, bank, 50.0128, 36.2301); // Северо-запад
 
         bank.AddATM(atm1);
         bank.AddATM(atm2);

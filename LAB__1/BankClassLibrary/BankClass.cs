@@ -165,7 +165,7 @@
             return nearestATM;
         }
 
-        private double CalculateDistance(double lat1, double lon1, double lat2, double lon2)
+        private double CalculateDistance(double lat1, double lon1, double lat2, double lon2) //Просчитываем дистанцию
         {
             const double EarthRadius = 6371; // Радиус Земли в километрах
 
@@ -202,8 +202,8 @@
         public decimal CashBalance { get; set; }      // Доступный баланс банкомата
         private Bank bank;
 
-        public double Latitude { get; private set; }
-        public double Longitude { get; private set; }
+        public double Latitude { get; private set; }   //Широта
+        public double Longitude { get; private set; } //Долгота
 
         // Конструктор класса AutomatedTellerMachine
         public AutomatedTellerMachine(int id, string location, decimal cashBalance, Bank bank, double latitude, double longitude)
