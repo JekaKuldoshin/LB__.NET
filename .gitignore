@@ -370,3 +370,8 @@ FodyWeavers.xsd
 /LAB__1/EventsFormsApp/LoginForm.Designer.cs
 /LAB__1/EventsFormsApp/HistoryForm.Designer.cs
 /LAB__1/EventsFormsApp/Properties/DataSources/BankClassLibrary.Transaction.datasource
+*.csproj
+/LAB__2/Program.cs
+/LAB__2/UnitTest__3/GlobalUsings.cs
+/LAB__2/UnitTest__2/GlobalUsings.cs
+/LAB__2/UnitTest___1/GlobalUsings.cs
